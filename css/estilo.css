@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+#css {
+    color: salmon;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#fundo {
+    background-color: lightskyblue;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#borda {
+    border: solid;
+    border-color: olive;
+    font-size: 32px;
+}
+
+#msitura1 {
+    border: 2px solid olive;
+    font-size: 32px;
+    color: seagreen;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#misitura2 {
+    background-color: slateblue;
+    font-size: 72px;
+    font-weight: bolder;
+    font-style: italic;
+    border-color: olive;
+    color: tomato;
+    text-decoration: underline;
+}
