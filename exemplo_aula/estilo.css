@@ -1,0 +1,17 @@
+h1 {
+    background-color: aqua;
+}
+
+h2 {
+    background-color: darkorange;
+}
+
+/* COLANDO A IMAGEM DO SENAI, E FAZENDO ELA PARA DE REPETIR A IMAGEM. */
+body {
+    background-image: url(https:sp.senai.br/images/senai.svg);
+    background-repeat: no-repeat;
+    /* POSICIONADO A IMAGEM NA DIREITA EM CIMA. */
+    background-position: right top;
+    background-attachment: fixed;
+
+}
