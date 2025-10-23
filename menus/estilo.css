@@ -1,0 +1,41 @@
+h1 {
+    font-size: 40px;
+    color: white;
+    background-color: darkred;
+    border-style: solid;
+    border-color: red;
+    border: width 5px;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(80, 70, 70);
+    border-style: solid;
+    border-width: 2px;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+/* MENU HORIZONTAL */
+#menu ul {
+    padding: 10px;
+    margin: 0;
+    background-color: #2b1010;
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 10px 30px;
+}
