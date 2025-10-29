@@ -38,4 +38,55 @@ h4 {
 
 #menu ul li a {
     padding: 10px 30px;
+    text-decoration: none;
+    background-color: #ededed;
+    border-radius: 5px;
+    display: inline-block;
+    /* FAZ O LINK SE COMPORTA COMO CAIXINHA, MAS FICA NA MESMA LINHA */
+    border-bottom: 3px solid #ededed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 0 50px;
+}
+
+#menu ul li a:hover {
+    background-color: #b5d45d;
+    color: #2d19e2;
+    border-bottom: 3px solid #EA0000;
+}
+
+/* MENU VERTICAL */
+/* REMOVE AS BOLINHAS / MARCADORES PADRÃO DA LISTA */
+#menuv ul {
+    list-style-type: none;
+    /* ZERA A MARGEM ESQUERDA */
+    margin-left: 0;
+    /* ESPAÇO INTERNO DO UL: 20PX EM CIMA/ BAIXO 50PX NAS LATERAIS */
+    padding: 20px 50px;
+    /* LARGURA FIXA DA ÁREA DO MENU */
+    width: 150px;
+    background-color: #2b1010;
+}
+
+#menuv ul li a {
+    /* FAZ CADA LINK VIRAR UM BLOCO */
+    display: block;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #ededed;
+    color: #333;
+    text-align: center;
+    border-bottom: 3px solid #ededed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 2px 0px;
+
+}
+
+#menuv ul li a:hover {
+    background-color: #b5d45d;
+    border-bottom: 3px solid #EA0000;
+    color: #2d19e2;
+
 }
