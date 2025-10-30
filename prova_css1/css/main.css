@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+h4 {
+    font-size: 32px;
+    color: white;
+    background-color: rgb(80, 70, 70);
+    text-align: center;
+    border: 2px solid red;
+    font-family: sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* ESTILIZANDO A NAV DA CLASSE MENU */
+.menu {
+    /* BACKGROUND-SIZE: COVER */
+    /* DISPLAY: BLOCK */
+    width: 100%;
+    height: 70px;
+    background-color: #2b1010;
+}
+
+.menu ul {
+    list-style: none;
+    position: relative;
+}
+
+.menu ul li {
+    width: 200px;
+    float: left;
+}
+
+.menu a {
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #2b1010;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+.menu ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul {
+    visibility: visible;
+}
+
+.menu a:hover {
+    background-color: #862175;
+    color: yellowgreen;
+}
+
+.menu ul ul li {
+    float: none;
+    border-bottom: solid 1px #ccc;
+}
