@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu DroopDown</title>
+    <style>
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropbtn {
+            /* O ELEMENTO CONTINUA OCUPANDO O MESMO ESPAÇO */
+            /* MAS PODE SER MOVIDO COM TOP, LEFT, RIGHT, BOTTOM */
+            position: relative;
+            display: block;
+        }
+
+        .dropdown-conteudo {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0 8px 16px 0 rgb(from 0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-conteudo a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            /* FAZ O LINK OCUPAR TODA A LARGURA DISPONÍVEL(É CLICAVEL EM TODA A LINHA) */
+            display: block;
+        }
+
+        .dropdown-conteudo a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-conteudo {
+            /* QUANDO O USUARIO PASSA O MOUSE SOBRE O ELEMENTO CLASSE .DROPDOWN O CONTEÚDO OCULTO É EXIBIDO */
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Menu DroopDown SESI</h2>
+    <p>Movao mouse até o botão para abrir o menu DropDown</p>
+    <div class="dropdown">
+        <button class="dropbtn">DroopDown</button>
+        <div class="dropdown-conteudo">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+</body>
+
+</html>
